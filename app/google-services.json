@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "956074095688",
+    "firebase_url": "https://madfinalexam-ce254.firebaseio.com",
+    "project_id": "madfinalexam-ce254",
+    "storage_bucket": "madfinalexam-ce254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956074095688:android:699603409f35fae534147d",
+        "android_client_info": {
+          "package_name": "com.aliraza.mad_final_exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956074095688-esmjr54sp2c0f5i0vrqom2h4a0jm3e61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aliraza.mad_final_exam",
+            "certificate_hash": "e072121b3a621b9787edb1b09ad18a05f33894a6"
+          }
+        },
+        {
+          "client_id": "956074095688-7tqcvriug1ttu8ag9inrfho1b02mqc3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkFWGety8zcca1iT7BjPyaeRcUVYgsU6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956074095688-7tqcvriug1ttu8ag9inrfho1b02mqc3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

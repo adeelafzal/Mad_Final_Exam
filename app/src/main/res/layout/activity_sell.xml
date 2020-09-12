@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".SellActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/uploadImage"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/gallBtn"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Image" />
+
+    <EditText
+        android:id="@+id/sellMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter make"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sellModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter model"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sellMileage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter mileage"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sellCity"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter city"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/selldesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sellColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter color"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Upload"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
